@@ -1,0 +1,3 @@
+task:
+  script: 
+    - bash /etc/gitlab-runner/script.sh "1a12" "1s7"

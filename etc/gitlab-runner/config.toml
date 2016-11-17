@@ -1,0 +1,16 @@
+concurrent = 1
+
+[[runners]]
+  url = "http://gitlab.local/ci"
+  token = "27b9d33c4c3edc2fff2e54751dd502"
+  tls-skip-verify = false
+  tls-ca-file = ""
+  name = "cepro-poc"
+  executor = "shell"
+  [runners.ssh]
+  [runners.docker]
+    image = ""
+    privileged = false
+  [runners.parallels]
+    base_name = ""
+
